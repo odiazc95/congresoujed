@@ -1,0 +1,55 @@
+.Titulo_reportes {
+    background: radial-gradient(50% 50% at 50% 50%, #B11830 0%, #60101D 100%);
+    padding: 15px;
+    margin: 17px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+.pub_reporte{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-pub_reporte{
+    cursor: pointer;
+    padding: 8px;
+    background-color: #B11830;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-size: 14px;
+}
+
+.contenedo_reportes_congresos{
+    padding: 10px;
+    margin: 10px;
+}
+
+.info_reporte{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_reporte{
+    width: 10%;
+    height: auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .Titulo_reportes {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .Titulo_reportes {
+        font-size: 12px;
+    }
+}

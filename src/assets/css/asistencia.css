@@ -1,0 +1,40 @@
+.ContenedorAsistencia {
+    margin: 15px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.input_Asistencia {
+    letter-spacing: 0.9px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #b11830;
+    padding: 8px;
+    width: 350px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_Asistencia {
+    background-color: #b11830;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.TextAsistencia {
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}

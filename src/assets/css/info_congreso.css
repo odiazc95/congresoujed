@@ -1,0 +1,272 @@
+.info_congreso,
+.info_adicional {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.container_info_congreso {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_congreso {
+  margin: 0;
+  width: 100%;
+  height: 20rem;
+  background: radial-gradient(50% 50% at 50% 50%, #b11830 0%, #60101d 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_congreso .img_logo {
+  width: 30rem;
+  height: auto;
+}
+
+.info_congreso .Name_congreso {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+  color: white;
+}
+
+.info_adicional {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.info_adicional .img_congreso {
+  border-radius: 10px;
+  width: 70%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.der_info_congreso .name_congreso {
+  font-size: 24px;
+}
+
+.izq_imgCongreso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 5px solid #970018;
+  width: 48rem;
+  height: 17rem;
+}
+
+.der_info_congreso {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  width: 50rem;
+}
+
+.Participar_congreso {
+  cursor: pointer;
+  margin: 15px;
+  width: 35%;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background-color: #b1182f;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  height: 45px;
+  transition: transform 80ms ease-in;
+}
+
+.align_icon_text .fecha_congreso {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.Descripcion_map {
+  font-size: 17px;
+  display: flex;
+  margin: 30px;
+  display: flex;
+}
+
+.izq_descripcion {
+  width: 50%;
+  margin: 5px;
+}
+
+.der_ubicacion {
+  width: 50%;
+}
+
+.der_ubicacion .direccion {
+  margin: 5px;
+  font-size: 17px;
+}
+
+.EventosContinerCongreso {
+  margin: 30px;
+}
+
+/* Estilos para pantallas medianas
+@media screen and (max-width: 1023px) {
+    .info_congreso, .info_adicional {
+        height: auto;
+    }
+
+    .der_info_congreso .name_congreso{
+        font-size: 18px;
+    }
+
+    .info_adicional {
+        flex-direction: column;
+    }
+
+    .izq_imgCongreso {
+        width: 100%;
+        height: auto;
+        border-right: none;
+    }
+
+
+
+    .der_info_congreso {
+        width: 100%;
+    }
+
+    .Participar_congreso {
+        width: 60%;
+        font-size: 18px;
+        height: 50px;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+/* @media screen and (max-width: 768px){
+    .info_congreso, .info_adicional {
+        padding: 10px;
+    }
+
+    .info_congreso .Name_congreso {
+        font-size: 1rem;
+    }
+
+    .der_info_congreso .name_congreso{
+        font-size: 16px;
+    }
+
+    .Participar_congreso {
+        width: 80%;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .align_icon_text .fecha_congreso {
+        font-size: 16px;
+    }
+
+    .Descripcion_map {
+        flex-direction: column;
+    }
+
+    .izq_descripcion, .der_ubicacion {
+        width: 100%;
+    }
+} */
+
+/* ffffffffffffffffffffffffffff */
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 1023px) {
+
+  .info_congreso,
+  .info_adicional {
+    height: auto;
+  }
+
+  .der_info_congreso .name_congreso {
+    font-size: 18px;
+  }
+
+  .info_adicional {
+    flex-direction: column;
+  }
+
+  .izq_imgCongreso {
+    width: 100%;
+    height: auto;
+    border-right: none;
+  }
+
+  .der_info_congreso {
+    width: 100%;
+  }
+
+  .Participar_congreso {
+    width: 60%;
+    font-size: 18px;
+    height: 50px;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .container_info_congreso {
+        margin: 7px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+  .info_congreso,
+  .info_adicional {
+    padding: 10px;
+  }
+
+  .info_congreso .Name_congreso {
+    font-size: 1rem;
+  }
+
+  .der_info_congreso .name_congreso {
+    font-size: 16px;
+  }
+
+  .Participar_congreso {
+    width: 80%;
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .align_icon_text .fecha_congreso {
+    font-size: 16px;
+  }
+
+  .Descripcion_map {
+    font-size: 13px;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .izq_descripcion,
+  .der_ubicacion {
+    margin: 5px;
+    width: 100%;
+    font-size: 13px;
+  }
+  .der_ubicacion .direccion {
+    margin: 5px;
+    font-size: 13px;
+}
+}

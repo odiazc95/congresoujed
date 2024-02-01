@@ -1,0 +1,56 @@
+.container_cardPlantilla {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 17px;
+    width: 25%;
+    border-top: 4px solid #B11830;
+}
+
+.Desc_plantilla, .Name_plantilla {
+    padding: 10px;
+    margin: 5px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.img_plantilla {
+    width: 90%;
+    max-height: 300px;
+    padding: 10px;
+}
+
+.btn_descargar_plantilla {
+    font-size: 15px;
+    padding: 5px;
+    margin: 15px;
+    width: 8rem;
+    height: 30px;
+    border: 2px solid #B11830;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.107) 0px 5px 0px 0px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .container_cardPlantilla {
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .container_cardPlantilla {
+        width: 80%;
+    }
+
+    .Desc_plantilla, .Name_plantilla {
+        font-size: 15px;
+    }
+
+    .btn_descargar_plantilla {
+        font-size: 14px;
+    }
+}

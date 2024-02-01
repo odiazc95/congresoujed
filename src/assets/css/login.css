@@ -1,0 +1,95 @@
+ /*Desing Login=================================================================*/
+ .sign-in-container {
+     background-color: #FFFFFF;
+     left: 0;
+     width: 50%;
+     z-index: 5;
+ }
+
+ .Form_inicioSesion {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     height: 100%;
+     text-align: center;
+
+ }
+
+ .img_logo {
+     max-width: 75%;
+     max-height: 75%;
+ }
+
+ @media (max-width: 768px) {
+
+     .sign-in-container {
+         width: 100%;
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .Form_inicioSesion {
+         width: 100%;
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .formContent {
+         width: 80%;
+         height: 45%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+
+     }
+
+     .formButton {
+         width: 100%;
+         height: 15px;
+         border-radius: 8px;
+         border: 2px solid #B11830;
+         background: #FFF;
+         font-size: 17px;
+         margin-top: 7px;
+         padding: 20px;
+         filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+     }
+
+     .buttonsRegister {
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         margin-top: 20px;
+     }
+
+     .botonRegister {
+         width: 49%;
+         border-radius: 10px;
+         border: 2px solid #ffffff;
+         background-color: #b1182f;
+         color: #FFFFFF;
+         font-size: 17px;
+         font-weight: 600;
+         height: 45px;
+         transition: transform 80ms ease-in;
+     }
+
+     .botonRegisterGoogle {
+         width: 49%;
+         border-radius: 10px;
+         border: 2px solid #000000;
+         background-color: #ffffff;
+         color: #000000;
+         font-size: 17px;
+         font-weight: 600;
+         height: 45px;
+         transition: transform 80ms ease-in;
+     }
+ }

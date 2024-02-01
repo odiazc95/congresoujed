@@ -1,0 +1,90 @@
+/* Estilo para el fondo oscuro detrás del modal */
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Estilo para el contenido del modal */
+.modal_content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Estilo para el botón de cerrar */
+.modal_close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 35px;
+  color: #000;
+}
+
+/* Estilo para títulos y texto dentro del modal */
+.modal_content h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.modal_content p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Estilo para botones dentro del modal */
+.modal_content button {
+  background-color: #b11830;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px 10px;
+  font-size: 15px;
+}
+
+.modal_content button:hover {
+  background-color: #b11830;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .modal_overlay {
+    font-size: 13px;
+  }
+
+  .modal_content {
+    max-width: 80%;
+    width: 300px;
+  }
+
+  .modal_content button {
+    font-size: 13px;
+    padding: 8px 20px;
+  }
+}
+
+.formulario_inputs_dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs_datos_dashboard {
+  margin: 1px;
+  border: 2px solid #b11830;
+  font-size: 15px;
+  padding-left: 3px;
+  width: 350px;
+  height: 30px;
+}

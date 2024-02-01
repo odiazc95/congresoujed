@@ -1,0 +1,48 @@
+.lat-bar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 0;
+  width: 27vh;
+  height: 90%;
+  list-style: none;
+  background-color: #b11830;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.nav:hover {
+  background-color: #ffffff40;
+  border-left: 5px solid rgb(255, 255, 255);
+}
+
+.nav:active {
+  border-left: 5px solid rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+.FaLocationDot {
+  color: #000000;
+}
+
+.nav .link {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.separacion {
+  padding: 10px;
+}

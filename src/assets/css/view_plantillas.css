@@ -1,0 +1,40 @@
+.Titulo_plantillas {
+    background: radial-gradient(50% 50% at 50% 50%, #B11830 0%, #60101D 100%);
+    padding: 15px;
+    margin: 17px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+.cards_plantillas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.containerCardFoliosAsistencias {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+@media screen and (max-width: 1023px) {
+    .Titulo_plantillas {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .Titulo_plantillas {
+        font-size: 12px;
+    }
+
+    .containerCardFoliosAsistencias {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

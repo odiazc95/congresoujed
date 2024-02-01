@@ -1,0 +1,27 @@
+.contenedor_constancia{
+ display: flex;
+ justify-content: center;
+}
+
+.contenido_constancia {
+  width: 60%;
+  display: flex;
+  margin-top: 25px;
+  border: 1px solid red;
+  flex-direction: column;
+}
+
+.logo-Constancia_plantilla {
+  width: 150px;
+  margin: 5px;
+}
+
+.img-firma{
+    width: 350px;
+}
+
+.align-firma{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
